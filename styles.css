@@ -1,0 +1,310 @@
+/* ----------------------------------------------- BASE ----------------------------------------------- */
+
+html {
+    font-size: 14px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CDD0E5;  
+}
+
+  body {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    
+}
+
+/* ----------------------------------------------- HEADER ----------------------------------------------- */
+
+#header {
+    background-image: url("photo-header.jpg") ;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+  }
+
+  .background {
+    background-color: #50255B;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* ----------------------------------------------- MENU ----------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    background-color: #50255B;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item {
+    padding: 0 5px;
+    width: 70px;
+    height: 60px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item1 {
+    width: 200px;
+    height: 50px; 
+    line-height: 50px;
+    font-weight: bold;
+}
+
+li a:link {
+    color: #E1E0E8;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    
+  
+}
+
+li a:visited {
+    color: #E1E0E8;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: #9C95CB;
+    color: #000000;
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+  
+}
+
+/* ----------------------------------------------- IMAGES ----------------------------------------------- */
+
+img {
+    height: 250px;
+    width: 250px;
+
+}
+
+
+.arrondie {
+    border-radius:90px;
+    display: block;
+    width: 180px;
+    height: 240px;
+}
+
+/* ----------------------------------------------- LIENS ----------------------------------------------- */
+
+a:link {
+    color: #9C95CB;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #9C95CB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #9C95CB;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------- TITRES ----------------------------------------------- */
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #E1E0E8;
+    font-family: Tahoma, sans-serif;
+    
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+    color: #E1E0E8;
+    background-color: #50255B;
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+    background-color: #E1E0E8;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+/* ----------------------------------------------- CLASSES ----------------------------------------------- */
+
+.intro {
+    float: right;
+}
+
+.special {
+    
+    font-weight: bold;
+}
+
+.info {
+    font-weight: bold;
+    vertical-align: top;
+    background-color: #E1DDFC;
+}
+
+td {
+    vertical-align: top;
+}
+
+.fac {
+    font-weight: bold;
+}
+
+.dates {
+    vertical-align: text-top;
+    font-style: italic;
+    width: auto;
+    text-align: center;
+}
+
+.hobbies {
+    
+    margin: auto;
+    width: 70%;
+    padding-top: 30px;
+    
+}
+
+p {
+    margin-left: 30px;
+}
+
+/* ----------------------------------------------- SKILLS ----------------------------------------------- */
+
+.container {
+    
+    width: 90%;
+    background-color: #ddd;
+    margin-left: 30px;
+}
+
+
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.anglais {
+    width: 90%; background-color: #9C95CB;
+}
+
+.italien {
+    width: 50%; background-color: #9C95CB;
+}
+
+.discord {
+    width: 90%; background-color: #9C95CB;
+}
+
+.zendesk {
+    width: 80%; background-color: #9C95CB;
+}
+
+.JIRA {
+    width: 60%; background-color: #9C95CB;
+}
+
+.Confluence {
+    width: 60%; background-color: #9C95CB;
+}
+
+.COP {
+    width: 90%; background-color: #9C95CB;
+}
+
+/* ----------------------------------------------- CONTACT ----------------------------------------------- */
+
+form {
+    margin: 0 auto;
+    width:40%;
+    height: 100%;
+    padding: 1em;
+    margin-top: 50px;
+    border: 1px solid #50255B;
+    border-radius: 1em;
+    background-color: #9C95CB;
+    font-weight: bold;
+}
+
+form div + div {
+    margin-top: 1.5em;
+    
+} 
+
+label {
+    display: block;
+    text-align: left;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    border-radius: 1em;
+    padding-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #50255B;   
+}
+
+textarea {
+    vertical-align: top;
+    height: 200px;
+    width: 100%;
+    border-radius: 1em;
+}
+
+
+
+/* ----------------------------------------------- FOOTER ----------------------------------------------- */
+
+footer {
+    height: 25px;
+    width: 100%;
+    background-color: #E1E0E8 ;
+    margin-top: 50px; 
+    padding: 1px;   
+}
