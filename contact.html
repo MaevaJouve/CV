@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maéva Jouve Technicienne développeuse web</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        
+    </head>
+    
+<body>
+  
+  <div id="header">    
+          <ul class="wrapper">
+            <li class="item1"><h1>Maéva Jouve</h1></li>
+            <li class="item"><a href="index.html">Accueil</a></li>
+            <li class="item"><a href="hobbies.html">Hobbies</a></li>
+            <li class="item"><a href="contact.html">Contact</a></li>
+            <li class="item"><a href="http://www.linkedin.com/in/maevajouve" class="clear">LinkedIn</a></li>
+          </ul>
+        
+    <div class="intro">
+      <img src="photo.jpeg" alt="Photo de Maeva" class="arrondie"/>
+    </div>
+
+  </div>
+
+  <div class="background">
+    <h1>Contact</h1>
+</div> 
+  
+  <form action="https://httpbin.org/post" method="POST">
+
+    <div>
+      <label for="name">Nom :<abbr title="required">(obligatoire)</abbr></label> 
+      <input type="text" id="name" name="user_name">
+    </div>
+
+    <div>
+      <p>Vous êtes plutôt :</p>
+      <label>Café</label>
+      <input type="radio" id="cafe" name="the_ou_cafe" value="1">
+    </div>
+
+    <div>
+      <label>Thé</label>
+      <input type="radio" id="the" name="the_ou_cafe" value="2">
+    </div>
+
+    <div>
+      <label for="category">
+        <span>CATégorie :</span>
+      </label>
+      <select id="category" name="user_category">
+        <option value="chats">Photos de chats</option>
+        <option value="cooking">Cours de cuisine</option>
+        <option value="tarot">Tirage de carte</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="subject">Sujet :<abbr title="required">(obligatoire)</abbr></label> 
+      <input type="text" id="subject" name="user_subject">
+    </div>
+
+    <div>
+      <label for="msg">Message :<abbr title="required">(obligatoire)</abbr></label>
+      <textarea id="msg" name="user_message"></textarea>
+    </div>
+
+    <div class="button">
+      <button type="submit">Envoyer</button>
+    </div>
+  
+  </form>
+
+<footer>
+  <h3>@ Maéva Jouve - Campus Numérique in the Alps - My cat is cuter than yours</h3>
+</footer>
+</body>
+
+</html>
